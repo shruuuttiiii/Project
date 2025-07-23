@@ -1,0 +1,17 @@
+# How to Run the AI Resume Screening Tool
+
+1. Make sure you have Python 3.8+ installed.
+2. Install all required packages:
+   pip install -r requirements.txt
+
+3. Download the spaCy model:
+   python -m spacy download en_core_web_sm
+
+4. Run the app using Streamlit:
+   streamlit run app.py
+
+5. Use the interface to upload:
+   - One or more resume PDFs
+   - A text file containing the job description
+
+6. View the ranked resumes and download results as a CSV.
